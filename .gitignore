@@ -1,0 +1,25 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# OS / Editor
+.DS_Store
+.vscode/
+
+# Data (keep structure, ignore files)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Streamlit
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
